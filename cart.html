@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bhow</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/angular-material.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+	
+</head>
+<body <div ng-controller="AppCtrl" ng-cloak="" ng-app="MyApp">>
+<div class="wrapper">
+
+	<div class="main-class">
+		
+		<header>
+			<nav>
+				   <ul class="categories">
+					<a href="#"><img src="img/back.png"></a>
+					<h3>Cart</h3>
+				
+					</a> 
+				</li>
+		
+				</ul>
+			</nav>
+		</header>
+			
+			<form class="form-input">
+
+			<div class="input-label1">
+				<p>Spinch <span>1 kg</span></p>
+			</div>
+
+		
+			<md-button  type="submit" class="procced md-raised md-primary">Confirm Order</md-button>
+			
+		</form>
+	</div>
+</div>
+
+  <script src="js/angular.min.js"></script>
+  <script src="js/angular-animate.min.js"></script>
+  <script src="js/angular-aria.min.js"></script>
+  <script src="js/angular-messages.min.js"></script>
+
+  <!-- Angular Material Library -->
+  <script src="js/angular-material.min.js"></script>
+  <script type="text/javascript">
+  	angular.module('MyApp', ['ngMaterial'])
+
+		.controller('AppCtrl', function($scope) {
+		 
+		});
+  </script>
+</body>
+</html>
