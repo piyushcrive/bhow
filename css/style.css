@@ -10,22 +10,57 @@ body{
     position: relative;
 }
 
+.log-in{
+	border-radius: 4px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.24) !important;
+  background-image: linear-gradient(236deg, #39a1f7, #a875ff) !important;
+}
+
 header{
 	width:100%;
 	height: 60px;
 	background: #fff;
+	box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.15);
 	z-index:999;
 	position: absolute;
-	width: 500px;
+	top:0;
 	margin: auto;
 	display: block;
 
+}
+
+header nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+}
+
+header nav ul  li a img.logo{
+	    height: 40px;
+    left: 14px;
+    position: relative;
+}
+
+.li-2{
+	    position: absolute;
+    right: 11px;
+}
+
+header nav ul li{
+	display: inline-block;
 }
 
 .left{
 	text-align: left;
 }
 
+.center{
+	text-align: center;
+}
 .main-class{
 	position: relative;
 	margin:auto;
@@ -38,7 +73,7 @@ header{
 	border:1px solid #ccc;
 }
 
-..main-class form{
+.main-class form{
 	padding: 10px 15px;
 }
 
@@ -82,4 +117,98 @@ header{
 	    width: 100%;
     height: 245px;
     object-fit: contain;
+}
+
+.last-Log-In {
+  width: 47px;
+  height: 21px;
+  font-family: Muli;
+  font-size: 17px;
+   letter-spacing: -0.3px;
+  text-align: center;
+  color: #718cfb;
+  display: block;
+  margin: auto;
+  text-decoration: none;
+}
+
+.already-account{
+	margin-bottom: 0;
+}
+
+.categories{
+	position: relative;
+}
+
+.categories a:first-child{
+	position: absolute;
+	left: 14px;
+}
+
+.categories h3{
+	text-align: center;
+	width: 100%;
+	font-size: 20px;
+	  color: #3b3b3b;
+}
+
+.categories a:first-child img{
+	height: 17px;
+}
+
+.categories a:last-child img{
+	height: 30px;
+}
+
+.categories a:last-child{
+	right: 10px;
+	position: absolute;
+}
+
+.cateogies-section {
+	width: 100%;
+	display: block;
+	margin-top:60px;
+}
+
+.cateogies-section  ul{
+	padding-left: 0;
+}
+
+.cateogies-section  ul li{
+	width: 100%;
+	height: 55px;
+	line-height: 55px;
+	padding: 0px 13px;
+	position: relative;
+	box-sizing: border-box;
+	border-bottom: 1px solid #ededed;
+}
+
+.cateogies-section  ul li a{
+	color: #3b3b3b;
+	text-decoration:none;
+}
+.cateogies-section  ul li a img{
+	position: absolute;
+	right: 10px;
+	height: 16px;
+	top: 17px;
+}
+
+.maually{
+  border-radius: 4px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+  border: solid 1px #bebebe;
+  background-color: #ffffff;
+  font-weight: bold;
+  width:96%;
+  color: #3b3b3b !important;
+  padding:6px !important;
+  position: absolute !important;
+   border: solid 1px #bebebe !important;
+  bottom: 10px;
+
+
+
 }

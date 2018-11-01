@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bhow</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/angular-material.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+	
+</head>
+<body <div ng-controller="AppCtrl" ng-cloak="" ng-app="MyApp">>
+<div class="wrapper">
+
+	<div class="main-class">
+		
+		<header>
+			<nav>
+				<ul class="categories">
+					<a href="#"><img src="img/back.png"></a>
+					<h3>Cateogry</h3>
+					<a href="#"><img src="img/cart.png"></a>
+
+					</a> 
+				</li>
+		
+				</ul>
+			</nav>
+		</header>
+
+		<div class="cateogies-section">
+			<ul>
+				<li><a href="#">Vegetables  <img src="img/right.png"></a></li>
+				<li><a href="#">Fruits  <img src="img/right.png"></a></li>
+				<li><a href="#">Stationary  <img src="img/right.png"></a></li>
+			</ul>
+
+			<md-button class="maually">or Enter Manually</md-button>
+		</div>
+			
+	</div>
+</div>
+
+  <script src="js/angular.min.js"></script>
+  <script src="js/angular-animate.min.js"></script>
+  <script src="js/angular-aria.min.js"></script>
+  <script src="js/angular-messages.min.js"></script>
+
+  <!-- Angular Material Library -->
+  <script src="js/angular-material.min.js"></script>
+  <script type="text/javascript">
+  	angular.module('MyApp', ['ngMaterial'])
+
+		.controller('AppCtrl', function($scope) {
+		 
+		});
+  </script>
+</body>
+</html>
