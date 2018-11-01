@@ -1,3 +1,85 @@
 body{
 	margin:0;
+	font-family: 'Muli', sans-serif;
+}
+
+.wrapper{
+	width: 100%;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+
+header{
+	width:100%;
+	height: 60px;
+	background: #fff;
+	z-index:999;
+	position: absolute;
+	width: 500px;
+	margin: auto;
+	display: block;
+
+}
+
+.left{
+	text-align: left;
+}
+
+.main-class{
+	position: relative;
+	margin:auto;
+
+	width: 400px;
+	margin: auto;
+	display:block;
+	height:100vh;
+	overflow-y:hidden;
+	border:1px solid #ccc;
+}
+
+..main-class form{
+	padding: 10px 15px;
+}
+
+.main-class  h1{
+	font-size: 26px;
+	font-weight: normal;
+	letter-spacing: 0.3px;
+	margin-bottom: 0px;
+}
+
+.main-class p{
+	margin-top:10px;
+  font-size: 14px;
+  letter-spacing: -0.3px;
+  color: #a9aebe;
+}
+.main-class input{
+	 display: block;
+	 margin-bottom: 10px;
+	 width: 100%;
+	 height:40px;
+	 border-radius:4px;
+	 line-height:40px;
+	 border:1px solid #dadaed;
+	 padding: 10px 15px;
+	 box-sizing: border-box;
+}
+
+.main-class .primary{
+		width: 100%;
+		box-sizing: border-box;
+		font-size:17px;
+		padding: 6px 0;
+		box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+  	    background-image: linear-gradient(254deg, #39a1f7, #a875ff);
+		color: #fff;
+		margin: 0 !important;
+}
+
+.main-class img.bg-login{
+	    width: 100%;
+    height: 245px;
+    object-fit: contain;
 }

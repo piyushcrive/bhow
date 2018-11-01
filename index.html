@@ -2,8 +2,71 @@
 <html>
 <head>
 	<title>Bhow</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/angular-material.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+	
 </head>
-<body>
+<body <div ng-controller="AppCtrl" ng-cloak="" ng-app="MyApp">>
+<div class="wrapper">
 
+	<div class="main-class">
+		
+		<header>
+			<nav>
+				<ul>
+					<li><a href="#"><img src="img/logo.png"> </a> </li>
+					<li><a href="#">
+					<md-button class="md-raised md-primary" type="submit">Login</md-button>
+					</a> 
+				</li>
+				<li><a href=""><img src="img/menu.png"> </a></li>
+				</ul>
+			</nav>
+		</header>
+			<img src="img/bg-login.png" class="bg-login">
+		<div class="heading-section">
+			<h1 class="left">Get Started</h1>
+			<p>Sign up for new account, enter your email and get started.</p>
+		</div>
+		<form>
+
+			<div class="input-label">
+				<input type="text" name="" placeholder="Full Name">
+			</div>
+
+			<div class="input-label">
+				<input type="text" name="" placeholder="Email ID">
+			</div>
+
+			<div class="input-label">
+				<input type="password" name="" placeholder="Password">
+			</div>
+
+			<md-button class="md-raised md-primary" type="submit" class="primary">Register</md-button>
+
+		</form>
+	</div>
+</div>
+
+  <script src="js/angular.min.js"></script>
+  <script src="js/angular-animate.min.js"></script>
+  <script src="js/angular-aria.min.js"></script>
+  <script src="js/angular-messages.min.js"></script>
+
+  <!-- Angular Material Library -->
+  <script src="js/angular-material.min.js"></script>
+  <script type="text/javascript">
+  	angular.module('MyApp', ['ngMaterial'])
+
+		.controller('AppCtrl', function($scope) {
+		  $scope.title1 = 'Button';
+		  $scope.title4 = 'Warn';
+		  $scope.isDisabled = true;
+
+		  $scope.googleUrl = 'http://google.com';
+
+		});
+  </script>
 </body>
 </html>
